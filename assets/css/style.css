@@ -1,9 +1,11 @@
+/* for all elements, use border-box sizing and remove all padding and margins*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* set an off-white color to the page background */
 body {
     background-color: #d9dcd6;
 }
@@ -20,10 +22,12 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* 'seo' span within the Hori'seo'n h1 */
+.seo {
     color: #d9dcd6;
 }
 
+/* nav bar */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +36,12 @@ header div {
     font-size: 20px;
 }
 
+/* nav bar list */
 header div ul {
     list-style-type: none;
 }
 
+/* nav bar list items*/
 header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -55,12 +61,14 @@ a {
     background-position: center;
 }
 
-.content {
+/* the content div */
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* the sections within the content div */
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,6 +82,7 @@ a {
     max-height: 200px;;
 }
 
+/* the floating behaviour for images within content-sections */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -93,7 +102,8 @@ p {
     font-size: 16px;
 }
 
-.benefits {
+/* the benefits div */
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -104,6 +114,7 @@ p {
     background-color: #2589bd;
 }
 
+/* the sections within the benefits div */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
