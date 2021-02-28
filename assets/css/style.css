@@ -82,7 +82,6 @@ header h1 {
     margin-left: 20px;
 }
 
-/* sections within the content div */
 #content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -96,7 +95,7 @@ header h1 {
     max-height: 200px;;
 }
 
-/* the floating behaviour for images within content-sections */
+/* the floating behaviour for images within sections within the content div */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -125,7 +124,6 @@ header h1 {
     background-color: #2589bd;
 }
 
-/* sections within the benefits div */
 #benefits section {
     margin-bottom: 32px;
     color: #ffffff;
