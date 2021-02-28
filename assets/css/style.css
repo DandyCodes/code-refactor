@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header styles */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,13 +23,13 @@ header h1 {
     font-size: 48px;
 }
 
-/* 'seo' span within the Hori'seo'n h1 */
+/* 'seo' span within the Hori'seo'n h1 in the header */
 #seo {
     color: #d9dcd6;
 }
 
-/* nav bar */
-header div {
+/* nav bar styles */
+#nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,22 +37,22 @@ header div {
     font-size: 20px;
 }
 
-/* nav bar list */
-header div ul {
+#nav ul {
     list-style-type: none;
 }
 
-/* nav bar list items*/
-header div ul li {
+#nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* anchor styles */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* hero image styles */
 #hero {
     height: 800px;
     width: 100%;
@@ -61,14 +62,14 @@ a {
     background-position: center;
 }
 
-/* the content div */
+/* content div styles */
 #content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* the sections within the content div */
+/* sections within the content div */
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -98,11 +99,12 @@ a {
     font-size: 36px;
 }
 
+/* paragraph style */
 p {
     font-size: 16px;
 }
 
-/* the benefits div */
+/* benefits div styles */
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,7 +116,7 @@ p {
     background-color: #2589bd;
 }
 
-/* the sections within the benefits div */
+/* sections within the benefits div */
 .benefit-section {
     margin-bottom: 32px;
     color: #ffffff;
@@ -131,6 +133,7 @@ p {
     max-width: 150px;
 }
 
+/* footer styles */
 footer {
     padding: 30px;
     clear: both;
