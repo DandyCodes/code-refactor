@@ -1,6 +1,5 @@
 /********* GENERIC STYLES *********/
 
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -22,7 +21,6 @@ p {
 
 
 /********* HEADER STYLES *********/
-
 
 header {
     padding: 20px;
@@ -59,8 +57,7 @@ nav ul li {
 }
 
 
-/********* MAIN STYLES *********/
-
+/********* HERO STYLES *********/
 
 #hero-image {
     height: 800px;
@@ -71,15 +68,16 @@ nav ul li {
     background-position: center;
 }
 
-/*** CONTENT DIV STYLES ***/
 
-#content {
+/********* MAIN STYLES *********/
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-#content section {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -88,11 +86,11 @@ nav ul li {
     color: #ffffff;
 }
 
-#content section img {
+main section img {
     max-height: 200px;;
 }
 
-/* the floating behaviour for images within sections within the content div */
+/* the floating behaviour for images within sections within main */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -103,14 +101,15 @@ nav ul li {
     margin-left: 25px;
 }
 
-#content section h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*** BENEFITS DIV STYLES ***/
 
-#benefits {
+/********* SIDEBAR STYLES *********/
+
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -121,17 +120,17 @@ nav ul li {
     background-color: #2589bd;
 }
 
-#benefits section {
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-#benefits section h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-#benefits section img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -139,7 +138,6 @@ nav ul li {
 
 
 /********* FOOTER STYLES *********/
-
 
 footer {
     padding: 30px;
