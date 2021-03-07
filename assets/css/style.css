@@ -34,8 +34,8 @@ header h1 {
     font-size: 48px;
 }
 
-/* 'seo' span within the Hori'seo'n h1 in the header */
-#seo {
+/* the span containing the letters 'seo' within the h1 (Hori'seo'n) in the header */
+.seo {
     color: #d9dcd6;
 }
 
