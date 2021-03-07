@@ -1,6 +1,6 @@
 # Website for Horiseon - Social Solution Services
 ## Description
-This repository contains a marketing company's website's codebase which has been refactored to follow accessibility standards so that the site is optimised for search engines, has all links function correctly, has consolidated CSS selectors which follow semantic structure and is deployed on GitHub Pages.
+This repository contains the codebase of a marketing company's website which has been refactored to follow accessibility standards so that the site is optimised for search engines, has all links function correctly, has consolidated CSS selectors which follow semantic structure and is deployed on GitHub Pages.
 
 ![a screenshot of the deployed website](/assets/images/screenshot.png)
 ## Usage
