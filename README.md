@@ -4,7 +4,7 @@ This repository contains website's codebase which has been refactored to follow 
 
 ![a screenshot of the deployed website](/assets/images/screenshot.png)
 ## Usage
-The deployed website can be viewed here: https://dandycodes.github.io/code-refactor/
+The deployed website can be viewed here: https://dandycodes.github.io/horiseon-social-solution-services/
 ## Credits
 https://developer.mozilla.org/en-US/
 
